@@ -59,11 +59,7 @@ trait TraversalTrait
      * @return NodeList
      */
     public function findXPath($xpath) {
-        try {
-            $results = $this->newNodeList();
-        } catch (\Exception $e) {
-            return new NodeCollection();
-        }
+        $results = $this->newNodeList();
 
         $domxpath = new \DOMXPath($this->document());
 
