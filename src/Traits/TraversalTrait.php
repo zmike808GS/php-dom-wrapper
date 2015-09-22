@@ -2,7 +2,6 @@
 
 namespace DOMWrap\Traits;
 
-use DOMWrap\Collections\NodeCollection;
 use DOMWrap\Element;
 use DOMWrap\NodeList;
 use Symfony\Component\CssSelector\CssSelector;
